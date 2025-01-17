@@ -1,0 +1,176 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-font{
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.bg{
+    background-color: #f5efe8;
+}
+.brand{
+    font-size: 40px;
+    font-weight: bold;
+}
+.nav-link{
+    display: flex;
+    gap: 30px;
+    
+}
+    
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.list-a{
+    text-decoration: none;
+}
+.nav-item{
+    list-style: none;
+}
+.brand-title{
+    font-size: 45px;
+    font-weight: bold;
+}
+.banar-image{
+    width: 100%;
+}
+.brand-sumary{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    justify-items: center;
+}
+.praymary-btn{
+    background-color: #FF900E;
+    margin-bottom: 50px;
+    color: white;
+    margin-top: 32px;
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+}
+/* team style here  */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.team{
+    display: flex;
+    display: grid;
+    gap: 20px;
+    grid-template-columns:repeat(2,1fr);
+    align-items: center;
+    margin:100px;
+}
+.team-image{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap: 24px;
+}
+.team-image img{
+    width: 100%;
+}
+.one{
+    font-size: 45px;
+    color: #717a81;
+}
+.two{
+    font-size: 45px;
+}
+.three{
+    font-size: 30px;
+    color: #FF900E;
+}
+.features-discription{
+    color:#717a81;
+}
+/* love and enjoy */
+.love-head{
+    font-size: 30px;
+    font-weight: bold;
+}
+.features-discrip{
+    color:#717a81;
+    font-size: 16px;
+}
+.h{
+    font-size: 20px;
+    font-weight: 500px;
+}
+.img{
+    width: 1600px;
+    margin-top: 40px;
+}
+.img img{
+    width: 100%;
+}
+.love{
+    display: flex;
+}
+.love-titel{
+    margin: 20px;
+}
+.praymary-btns{
+    font-size: 30px;
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: -500px;
+    margin-left: 550px; 
+}
+.ex{
+    font-size: 12px;
+}
+.hiden{
+    display: none;
+}
+
+
+
+
+/* responsive work here */
+@media screen and (max-width:576px) {
+    .navbar, .nav-link{
+        flex-direction: column;
+    }
+    .team{
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+        gap: 5px;
+        margin: 10px;
+        gap: 4px;   
+    }
+    .praymary-btns{
+        margin-left: 200px;;
+    }
+    /* .team-image img{
+        display: grid;
+        flex-direction: column;
+        grid-template-columns:repeat(1,1fr);
+    } */
+    /* .team-image{
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+        gap: 5px;
+    }
+    /* .team{display: grid;
+    grid-template-columns:repeat(1,1fr);
+    }  */
+    /* .nav-link , .list-a{
+        flex-direction: column;
+    }
+    .nav-item{
+        flex-direction: column;
+    } */
+}
